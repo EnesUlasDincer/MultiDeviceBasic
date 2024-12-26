@@ -1,0 +1,28 @@
+[12/26 14:41:07.948770][debug][18924][Context.cpp:30] Context creating, work_dir=/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice
+[12/26 14:41:07.948812][debug][18924][Context.cpp:49] Config file version=1.1
+[12/26 14:41:07.948822][debug][18924][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[12/26 14:41:07.948826][info][18924][Context.cpp:68] Context created with config: default config!
+[12/26 14:41:07.948837][info][18924][Context.cpp:73] Work directory=/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice, SDK version=v1.10.16-20241021-5113dad
+[12/26 14:41:07.948845][debug][18924][DeviceManager.cpp:30] DeviceManager init ...
+[12/26 14:41:07.948847][info][18924][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[12/26 14:41:07.949393][debug][18924][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[12/26 14:41:08.155940][debug][18924][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[12/26 14:41:08.156058][debug][18924][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[12/26 14:41:08.156090][debug][18924][UsbDeviceEnumerator.cpp:166]  - 2-6.3-8.0 | Orbbec Femto Bolt RGB Camera
+[12/26 14:41:08.156107][debug][18924][UsbDeviceEnumerator.cpp:166]  - 2-6.3-8.2 | Orbbec Femto Bolt Depth Camera
+[12/26 14:41:08.156121][debug][18924][UsbDeviceEnumerator.cpp:166]  - 2-6.3-8.4 | HID Interface
+[12/26 14:41:08.156134][debug][18924][UsbDeviceEnumerator.cpp:166]  - 2-6.2-9.0 | Orbbec Femto Bolt RGB Camera
+[12/26 14:41:08.156147][debug][18924][UsbDeviceEnumerator.cpp:166]  - 2-6.2-9.2 | Orbbec Femto Bolt Depth Camera
+[12/26 14:41:08.156159][debug][18924][UsbDeviceEnumerator.cpp:166]  - 2-6.2-9.4 | HID Interface
+[12/26 14:41:08.156424][info][18924][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[12/26 14:41:08.156496][debug][18924][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[12/26 14:41:08.156518][debug][18924][UsbDeviceEnumerator.cpp:74]   - Name: Femto Bolt, PID: 0x066B, SN/ID: CL8A84201GW, connection: USB3.1
+[12/26 14:41:08.156533][debug][18924][UsbDeviceEnumerator.cpp:74]   - Name: Femto Bolt, PID: 0x066B, SN/ID: CL8A8420179, connection: USB3.1
+[12/26 14:41:08.156554][info][18924][DeviceManager.cpp:15] Current found device(s): (2)
+[12/26 14:41:08.156587][info][18924][DeviceManager.cpp:24] 	- Name: Femto Bolt, PID: 0x066b, SN/ID: CL8A84201GW, Connection: USB3.1
+[12/26 14:41:08.156612][info][18924][DeviceManager.cpp:24] 	- Name: Femto Bolt, PID: 0x066b, SN/ID: CL8A8420179, Connection: USB3.1
+[12/26 14:41:08.156635][debug][18924][DeviceManager.cpp:52] DeviceManager construct done!
+[12/26 14:41:09.464071][debug][18924][Context.cpp:81] Context destroying ...
+[12/26 14:41:09.464152][debug][18924][DeviceManager.cpp:56] DeviceManager destroy ...
+[12/26 14:41:09.464182][debug][18924][DeviceManager.cpp:64] DeviceManager Destructors done
+[12/26 14:41:09.464954][info][18924][Context.cpp:84] Context destroyed
