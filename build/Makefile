@@ -222,6 +222,30 @@ src/cJSON.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myMultiDeviceSync.dir/build.make CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.s
 .PHONY : src/cJSON.c.s
 
+src/multiDevice_funcs.o: src/multiDevice_funcs.cpp.o
+.PHONY : src/multiDevice_funcs.o
+
+# target to build an object file
+src/multiDevice_funcs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myMultiDeviceSync.dir/build.make CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o
+.PHONY : src/multiDevice_funcs.cpp.o
+
+src/multiDevice_funcs.i: src/multiDevice_funcs.cpp.i
+.PHONY : src/multiDevice_funcs.i
+
+# target to preprocess a source file
+src/multiDevice_funcs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myMultiDeviceSync.dir/build.make CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.i
+.PHONY : src/multiDevice_funcs.cpp.i
+
+src/multiDevice_funcs.s: src/multiDevice_funcs.cpp.s
+.PHONY : src/multiDevice_funcs.s
+
+# target to generate assembly for a file
+src/multiDevice_funcs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/myMultiDeviceSync.dir/build.make CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.s
+.PHONY : src/multiDevice_funcs.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -241,6 +265,9 @@ help:
 	@echo "... src/cJSON.o"
 	@echo "... src/cJSON.i"
 	@echo "... src/cJSON.s"
+	@echo "... src/multiDevice_funcs.o"
+	@echo "... src/multiDevice_funcs.i"
+	@echo "... src/multiDevice_funcs.s"
 .PHONY : help
 
 

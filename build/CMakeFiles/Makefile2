@@ -81,12 +81,12 @@ clean: CMakeFiles/myMultiDeviceSync.dir/clean
 CMakeFiles/myMultiDeviceSync.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myMultiDeviceSync.dir/build.make CMakeFiles/myMultiDeviceSync.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myMultiDeviceSync.dir/build.make CMakeFiles/myMultiDeviceSync.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/build/CMakeFiles --progress-num=1,2,3 "Built target myMultiDeviceSync"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/build/CMakeFiles --progress-num=1,2,3,4 "Built target myMultiDeviceSync"
 .PHONY : CMakeFiles/myMultiDeviceSync.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/myMultiDeviceSync.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/myMultiDeviceSync.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/build/CMakeFiles 0
 .PHONY : CMakeFiles/myMultiDeviceSync.dir/rule

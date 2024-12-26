@@ -5,6 +5,7 @@ project(myMultiDeviceSync)
 
 add_executable(${PROJECT_NAME}
   src/MultiDeviceSync.cpp
+  src/multiDevice_funcs.cpp
   src/cJSON.c
 )
 

@@ -83,10 +83,24 @@ CMakeFiles/myMultiDeviceSync.dir/src/MultiDeviceSync.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myMultiDeviceSync.dir/src/MultiDeviceSync.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/MultiDeviceSync.cpp -o CMakeFiles/myMultiDeviceSync.dir/src/MultiDeviceSync.cpp.s
 
+CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o: CMakeFiles/myMultiDeviceSync.dir/flags.make
+CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o: /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/multiDevice_funcs.cpp
+CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o: CMakeFiles/myMultiDeviceSync.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o -MF CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o.d -o CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o -c /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/multiDevice_funcs.cpp
+
+CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/multiDevice_funcs.cpp > CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.i
+
+CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/multiDevice_funcs.cpp -o CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.s
+
 CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o: CMakeFiles/myMultiDeviceSync.dir/flags.make
 CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o: /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/cJSON.c
 CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o: CMakeFiles/myMultiDeviceSync.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o -MF CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o.d -o CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o -c /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/cJSON.c
 
 CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.i: cmake_force
@@ -100,12 +114,14 @@ CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.s: cmake_force
 # Object files for target myMultiDeviceSync
 myMultiDeviceSync_OBJECTS = \
 "CMakeFiles/myMultiDeviceSync.dir/src/MultiDeviceSync.cpp.o" \
+"CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o" \
 "CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o"
 
 # External object files for target myMultiDeviceSync
 myMultiDeviceSync_EXTERNAL_OBJECTS =
 
 myMultiDeviceSync: CMakeFiles/myMultiDeviceSync.dir/src/MultiDeviceSync.cpp.o
+myMultiDeviceSync: CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o
 myMultiDeviceSync: CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o
 myMultiDeviceSync: CMakeFiles/myMultiDeviceSync.dir/build.make
 myMultiDeviceSync: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.6.0
@@ -168,7 +184,7 @@ myMultiDeviceSync: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0
 myMultiDeviceSync: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 myMultiDeviceSync: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 myMultiDeviceSync: CMakeFiles/myMultiDeviceSync.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable myMultiDeviceSync"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable myMultiDeviceSync"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myMultiDeviceSync.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

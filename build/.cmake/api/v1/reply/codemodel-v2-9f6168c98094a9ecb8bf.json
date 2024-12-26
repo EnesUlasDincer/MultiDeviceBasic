@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-9501ec0f3f84abc7ec4d.json",
+					"jsonFile" : "directory-.-Debug-903357b05f1942f23a89.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.1.15"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "myMultiDeviceSync::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-myMultiDeviceSync-Debug-f570b0e1ca315eaf004f.json",
+					"jsonFile" : "target-myMultiDeviceSync-Debug-6ae8789a1220e9285d7a.json",
 					"name" : "myMultiDeviceSync",
 					"projectIndex" : 0
 				}

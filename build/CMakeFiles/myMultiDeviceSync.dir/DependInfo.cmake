@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/cJSON.c" "CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o" "gcc" "CMakeFiles/myMultiDeviceSync.dir/src/cJSON.c.o.d"
   "/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/MultiDeviceSync.cpp" "CMakeFiles/myMultiDeviceSync.dir/src/MultiDeviceSync.cpp.o" "gcc" "CMakeFiles/myMultiDeviceSync.dir/src/MultiDeviceSync.cpp.o.d"
+  "/home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/multiDevice_funcs.cpp" "CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o" "gcc" "CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

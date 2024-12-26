@@ -1,5 +1,5 @@
-CMakeFiles/myMultiDeviceSync.dir/src/MultiDeviceSync.cpp.o: \
- /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/MultiDeviceSync.cpp \
+CMakeFiles/myMultiDeviceSync.dir/src/multiDevice_funcs.cpp.o: \
+ /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/multiDevice_funcs.cpp \
  /usr/include/stdc-predef.h \
  /home/enes/Desktop/ORBBEC/Orbbec_Codes/MultiDevice/src/../include/multiDevice_funcs.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algobase.h \
